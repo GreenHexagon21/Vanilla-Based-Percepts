@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Maker_Culture</defName>
+    <label>maker_culturing</label>
+    <iconPath>UI/Maker_Culture</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Maker_Culture_Central</defName>
+    <issue>Maker_Culture</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>
