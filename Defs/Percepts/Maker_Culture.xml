@@ -20,7 +20,17 @@
     <statFactors>
     </statFactors>
     <statOffsets>
-        <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        <BeautyOutdoors>-1</BeautyOutdoors>
+        <ConstructionSpeedFactor>0.2</ConstructionSpeedFactor>
+        <ConstructSuccessChance>0.1</ConstructSuccessChance>
+        <PlantWorkSpeed>-0.15</PlantWorkSpeed>
+        <DrugHarvestYield>-0.25</DrugHarvestYield>
+        <AssemblySpeedFactor>0.1</AssemblySpeedFactor>
+        <WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
+        <CaravanRidingSpeedFactor>-0.2</CaravanRidingSpeedFactor>
+        <ShootingAccuracyTurret>0.2</ShootingAccuracyTurret>
+        <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+        <FixBrokenDownBuildingSuccessChance>0.15</FixBrokenDownBuildingSuccessChance>
     </statOffsets>
   </PreceptDef>
 
