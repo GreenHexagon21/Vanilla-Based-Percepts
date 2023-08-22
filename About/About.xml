@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <name>Adds farming percept</name>
+    <author>Hex</author>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+    <loadAfter>
+        <li>ludeon.rimworld.ideology</li>
+    </loadAfter>
+    <description>
+        Adds new precept called farming as ranching alternative
+    </description>
+
+</ModMetaData>
