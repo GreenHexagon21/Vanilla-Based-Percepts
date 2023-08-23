@@ -27,7 +27,7 @@
         <GlobalLearningFactor>0.25</GlobalLearningFactor>
         <ResearchSpeed>0.2</ResearchSpeed>
         <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
-        <Cleanliness>0.2</Cleanliness>
+        <Cleanliness>5</Cleanliness>
         <TradePriceImprovement>-0.1</TradePriceImprovement>
         <FilthMultiplier>-0.2</FilthMultiplier>
         <SocialImpact>-0.25</SocialImpact>
@@ -35,9 +35,9 @@
         <BedRestEffectiveness>-0.1</BedRestEffectiveness>
         <MentalBreakThreshold>0.15</MentalBreakThreshold>
         <PainShockThreshold>-0.15</PainShockThreshold>
-        <ShootingAccuracyTurret>0.15</ShootingAccuracyTurret>
+        <ShootingAccuracyTurret>0.1</ShootingAccuracyTurret>
         <HackingSpeed>-0.2</HackingSpeed>
-        <ControlTakingTime>-0.3</ControlTakingTime>
+        <ControlTakingTime>-5</ControlTakingTime>
     </statOffsets>
   </PreceptDef>
 

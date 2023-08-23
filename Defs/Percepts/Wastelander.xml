@@ -19,18 +19,18 @@
     <impact>Medium</impact>
     <statFactors>
     </statFactors>
-    <CertaintyLossFactor>1.5</CertaintyLossFactor>
-    <CleaningTimeFactor>1.2</CleaningTimeFactor>
     <statOffsets>
+        <CertaintyLossFactor>0.15</CertaintyLossFactor>
+        <CleaningTimeFactor>0.2</CleaningTimeFactor>
         <ToxicResistance>0.4</ToxicResistance>
         <ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
         <CancerRate>0.15</CancerRate>
         <DrugHarvestYield>0.15</DrugHarvestYield>
         <PlantHarvestYield>0.15</PlantHarvestYield>
-        <MaxHitPoints>0.25</MaxHitPoints>
+        <MaxHitPoints>7</MaxHitPoints>
         <EatingSpeed>-0.2</EatingSpeed>
         <CarryingCapacity>5</CarryingCapacity>
-        <PlantWorkSpeed>-0.1</PlantWorkSpeed>
+        <PlantWorkSpeed>0.1</PlantWorkSpeed>
         <MentalBreakThreshold>-0.15</MentalBreakThreshold>
     </statOffsets>
   </PreceptDef>

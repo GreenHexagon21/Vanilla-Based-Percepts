@@ -24,7 +24,7 @@
         <ComfyTemperatureMin>10</ComfyTemperatureMin>
         <ComfyTemperatureMax>10</ComfyTemperatureMax>
         <Insulation_Heat>5</Insulation_Heat>
-        <Insulation_Cold>-10</Insulation_Cold>
+        <Insulation_Cold>-5</Insulation_Cold>
         <CaravanRidingSpeedFactor>-0.15</CaravanRidingSpeedFactor>
     </statOffsets>
   </PreceptDef>
