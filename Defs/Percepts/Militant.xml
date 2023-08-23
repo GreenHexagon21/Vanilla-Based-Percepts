@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Militant</defName>
+    <label>militant</label>
+    <iconPath>UI/Militant</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Militant_Central</defName>
+    <issue>Militant</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+        <AssemblySpeedFactor>0.15</AssemblySpeedFactor>
+        <AimingDelayFactor>-0.2</AimingDelayFactor>
+        <InjuryHealingFactor>0.2</InjuryHealingFactor>
+        <BedHungerRateFactor>0.1</BedHungerRateFactor>
+        <MortarMissRadiusFactor>-0.3</MortarMissRadiusFactor>
+    </statFactors>
+    <statOffsets>
+        <CaravanRidingSpeedFactor>0.2</CaravanRidingSpeedFactor>
+        <EatingSpeed>-0.2</EatingSpeed>
+        <MedicalTendSpeed>-0.2</MedicalTendSpeed>
+        <MedicalTendQuality>-0.1</MedicalTendQuality>
+        <MaxHitPoints>12</MaxHitPoints>
+        <RestRateMultiplier>0.2</RestRateMultiplier>
+        <FilthMultiplier>0.2</FilthMultiplier>
+        <ShootingAccuracyOutdoorsLitOffset>0.2</ShootingAccuracyOutdoorsLitOffset>
+        <ShootingAccuracyOutdoorsDarkOffset>0.2</ShootingAccuracyOutdoorsDarkOffset>
+        <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+        <StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+        <EquipDelay>-0.2</EquipDelay>
+        <PainShockThreshold>0.25</PainShockThreshold>
+        <MiningSpeed>0.15</MiningSpeed>
+        <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+        <ArrestSuccessChance>0.4</ArrestSuccessChance>
+        <TradePriceImprovement>-0.2</TradePriceImprovement>
+        <DrugSellPriceImprovement>-0.3</DrugSellPriceImprovement>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>
