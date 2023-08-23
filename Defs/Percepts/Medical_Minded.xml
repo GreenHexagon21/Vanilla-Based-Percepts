@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Medical_Minded</defName>
+    <label>Medical Minded</label>
+    <iconPath>UI/Medical_Minded</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Medical_Minded_Central</defName>
+    <issue>Medical_Minded</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <MedicalTendSpeed>0.3</MedicalTendSpeed>
+        <MedicalTendQuality>0.3</MedicalTendQuality>
+        <CleaningTimeFactor>-0.3</CleaningTimeFactor>
+        <ImmunityGainSpeedFactor>-0.2</ImmunityGainSpeedFactor>
+        <PainShockThreshold>-0.2</PainShockThreshold>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

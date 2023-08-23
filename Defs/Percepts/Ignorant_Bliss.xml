@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Ignorant_Bliss</defName>
+    <label>Ignorant Bliss</label>
+    <iconPath>UI/Ignorant_Bliss</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Ignorant_Bliss_Central</defName>
+    <issue>Ignorant_Bliss</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <Comfort>0.5</Comfort>
+        <PawnBeauty>2</PawnBeauty>
+        <BeautyOutdoors>2</BeautyOutdoors>
+        <ResearchSpeed>-0.4</ResearchSpeed>
+        <HackingSpeed>-0.5</HackingSpeed>
+        <LearningRateFactor>-0.35</LearningRateFactor>
+        <ConversionPower>-0.4</ConversionPower>
+        <Fertility>0.5</Fertility>
+        <JoyGainFactor>0.35</JoyGainFactor>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>
