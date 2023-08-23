@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Charisma_Is_King</defName>
+    <label>Charisma Is King</label>
+    <iconPath>UI/Charisma_Is_King</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Charisma_Is_King_Central</defName>
+    <issue>Charisma_Is_King</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <TradePriceImprovement>0.15</TradePriceImprovement>
+        <NegotiationAbility>0.3</NegotiationAbility>
+        <ResearchSpeed>-0.1</ResearchSpeed>
+        <ConstructionSpeed>-0.15</ConstructionSpeed>
+        <PlantWorkSpeed>-0.1</PlantWorkSpeed>
+        <JoyGainFactor>0.2</JoyGainFactor>
+        <MentalBreakThreshold>0.15</MentalBreakThreshold>
+        <CertaintyLossFactor>0.2</CertaintyLossFactor>
+        <ConversionPower>0.35</ConversionPower>
+        <BondAnimalChanceFactor>0.25</BondAnimalChanceFactor>
+        <CaravanRidingSpeedFactor>-0.2</CaravanRidingSpeedFactor>
+        <BabyPlayGainFactor>0.25</BabyPlayGainFactor>
+        <SocialImpact>0.15</SocialImpact>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

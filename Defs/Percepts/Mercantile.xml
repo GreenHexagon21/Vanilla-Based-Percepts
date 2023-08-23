@@ -20,7 +20,7 @@
     <statFactors>
     </statFactors>
     <statOffsets>
-        <SellPriceFactor>0.2</SellPriceFactor>
+        <SellPriceFactor>0.25</SellPriceFactor>
         <NegotiationAbility>0.15</NegotiationAbility>
         <ConstructionSpeedFactor>0.15</ConstructionSpeedFactor>
         <TameAnimalChance>-0.1</TameAnimalChance>
