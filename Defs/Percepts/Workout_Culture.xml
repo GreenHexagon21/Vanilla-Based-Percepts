@@ -37,6 +37,7 @@
         <FilthMultiplier>0.25</FilthMultiplier>
         <JoyGainFactor>-0.05</JoyGainFactor>
         <ResearchSpeed>-0.2</ResearchSpeed>
+        <SocialImpact>0.2</SocialImpact>
     </statOffsets>
   </PreceptDef>
 

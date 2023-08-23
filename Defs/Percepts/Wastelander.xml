@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Wastelander</defName>
+    <label>Wastelander</label>
+    <iconPath>UI/Wastelander</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Wastelander_Central</defName>
+    <issue>Wastelander</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <CertaintyLossFactor>1.5</CertaintyLossFactor>
+    <CleaningTimeFactor>1.2</CleaningTimeFactor>
+    <statOffsets>
+        <ToxicResistance>0.4</ToxicResistance>
+        <ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
+        <CancerRate>0.15</CancerRate>
+        <DrugHarvestYield>0.15</DrugHarvestYield>
+        <PlantHarvestYield>0.15</PlantHarvestYield>
+        <MaxHitPoints>0.25</MaxHitPoints>
+        <EatingSpeed>-0.2</EatingSpeed>
+        <CarryingCapacity>5</CarryingCapacity>
+        <PlantWorkSpeed>-0.1</PlantWorkSpeed>
+        <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>
