@@ -26,8 +26,8 @@
       <BedHungerRateFactor>0.1</BedHungerRateFactor>
       <MortarMissRadiusFactor>-0.3</MortarMissRadiusFactor>
       <CaravanRidingSpeedFactor>0.2</CaravanRidingSpeedFactor>
-      <EatingSpeed>-0.2</EatingSpeed>
-      <MedicalTendSpeed>-0.2</MedicalTendSpeed>
+      <EatingSpeed>0.2</EatingSpeed>
+      <MedicalTendSpeed>0.2</MedicalTendSpeed>
       <MedicalTendQuality>-0.1</MedicalTendQuality>
       <MaxHitPoints>12</MaxHitPoints>
       <RestRateMultiplier>0.2</RestRateMultiplier>
@@ -36,9 +36,9 @@
       <ShootingAccuracyOutdoorsDarkOffset>0.2</ShootingAccuracyOutdoorsDarkOffset>
       <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-      <EquipDelay>-0.2</EquipDelay>
+      <EquipDelay>-0.4</EquipDelay>
       <PainShockThreshold>0.25</PainShockThreshold>
-      <MiningSpeed>0.15</MiningSpeed>
+      <MiningSpeed>-0.15</MiningSpeed>
       <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
       <ArrestSuccessChance>0.4</ArrestSuccessChance>
       <TradePriceImprovement>-0.2</TradePriceImprovement>

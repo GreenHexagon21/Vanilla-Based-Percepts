@@ -28,7 +28,7 @@
         <DrugHarvestYield>0.15</DrugHarvestYield>
         <PlantHarvestYield>0.15</PlantHarvestYield>
         <MaxHitPoints>7</MaxHitPoints>
-        <EatingSpeed>-0.2</EatingSpeed>
+        <EatingSpeed>0.2</EatingSpeed>
         <CarryingCapacity>5</CarryingCapacity>
         <PlantWorkSpeed>0.1</PlantWorkSpeed>
         <MentalBreakThreshold>-0.15</MentalBreakThreshold>

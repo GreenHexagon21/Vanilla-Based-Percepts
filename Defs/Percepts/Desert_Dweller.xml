@@ -20,12 +20,12 @@
     <statFactors>
     </statFactors>
     <statOffsets>
-        <SmoothingSpeed>-0.3</SmoothingSpeed>
+        <SmoothingSpeed>0.3</SmoothingSpeed>
         <ComfyTemperatureMin>10</ComfyTemperatureMin>
         <ComfyTemperatureMax>10</ComfyTemperatureMax>
         <Insulation_Heat>5</Insulation_Heat>
         <Insulation_Cold>-5</Insulation_Cold>
-        <CaravanRidingSpeedFactor>-0.15</CaravanRidingSpeedFactor>
+        <CaravanRidingSpeedFactor>-0.1</CaravanRidingSpeedFactor>
     </statOffsets>
   </PreceptDef>
 

@@ -22,11 +22,11 @@
     <statOffsets>
         <SellPriceFactor>0.25</SellPriceFactor>
         <NegotiationAbility>0.15</NegotiationAbility>
-        <ConstructionSpeedFactor>0.15</ConstructionSpeedFactor>
+        <ConstructionSpeedFactor>-0.15</ConstructionSpeedFactor>
         <TameAnimalChance>-0.1</TameAnimalChance>
         <CarryingCapacity>10</CarryingCapacity>
         <CaravanRidingSpeedFactor>0.3</CaravanRidingSpeedFactor>
-        <DoorOpenSpeed>-0.4</DoorOpenSpeed>
+        <DoorOpenSpeed>0.4</DoorOpenSpeed>
     </statOffsets>
   </PreceptDef>
 

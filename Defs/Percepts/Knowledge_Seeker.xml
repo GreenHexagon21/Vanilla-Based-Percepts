@@ -22,7 +22,7 @@
     <statOffsets>
         <JoyGainFactor>-0.25</JoyGainFactor>
         <BeautyOutdoors>-1</BeautyOutdoors>
-        <MedicalTendSpeed>-0.2</MedicalTendSpeed>
+        <MedicalTendSpeed>0.2</MedicalTendSpeed>
         <MedicalTendQuality>0.15</MedicalTendQuality>
         <GlobalLearningFactor>0.25</GlobalLearningFactor>
         <ResearchSpeed>0.2</ResearchSpeed>
@@ -36,8 +36,8 @@
         <MentalBreakThreshold>0.15</MentalBreakThreshold>
         <PainShockThreshold>-0.15</PainShockThreshold>
         <ShootingAccuracyTurret>0.1</ShootingAccuracyTurret>
-        <HackingSpeed>-0.2</HackingSpeed>
-        <ControlTakingTime>-5</ControlTakingTime>
+        <HackingSpeed>+0.2</HackingSpeed>
+        <ControlTakingTime>-4</ControlTakingTime>
     </statOffsets>
   </PreceptDef>
 
