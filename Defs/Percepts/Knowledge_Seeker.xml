@@ -20,13 +20,13 @@
     <statFactors>
     </statFactors>
     <statOffsets>
-        <JoyGainFactor>-0.25</JoyGainFactor>
+        <JoyGainFactor>-0.15</JoyGainFactor>
         <BeautyOutdoors>-1</BeautyOutdoors>
         <MedicalTendSpeed>0.2</MedicalTendSpeed>
         <MedicalTendQuality>0.15</MedicalTendQuality>
         <GlobalLearningFactor>0.25</GlobalLearningFactor>
         <ResearchSpeed>0.2</ResearchSpeed>
-        <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+        <GeneralLaborSpeed>-0.2</GeneralLaborSpeed>
         <Cleanliness>5</Cleanliness>
         <TradePriceImprovement>-0.1</TradePriceImprovement>
         <FilthMultiplier>-0.2</FilthMultiplier>
