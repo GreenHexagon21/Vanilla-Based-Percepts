@@ -4,34 +4,30 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Wastelander_Complex</defName>
-    <label>Wastelander - complex</label>
+    <defName>Wastelander</defName>
+    <label>Wastelander</label>
     <iconPath>UI/Wastelander</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Wastelander_Complex_Central</defName>
-    <issue>Wastelander_Complex</issue>
+    <defName>Wastelander_Central</defName>
+    <issue>Wastelander</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
     <impact>Medium</impact>
     <statFactors>
     </statFactors>
     <statOffsets>
-        <CertaintyLossFactor>0.15</CertaintyLossFactor>
-        <CleaningTimeFactor>0.2</CleaningTimeFactor>
         <ToxicResistance>0.4</ToxicResistance>
         <ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
         <CancerRate>0.15</CancerRate>
         <DrugHarvestYield>0.15</DrugHarvestYield>
-        <PlantHarvestYield>0.15</PlantHarvestYield>
+        <PlantHarvestYield>0.25</PlantHarvestYield>
         <MaxHitPoints>7</MaxHitPoints>
-        <EatingSpeed>0.2</EatingSpeed>
         <CarryingCapacity>5</CarryingCapacity>
-        <PlantWorkSpeed>0.1</PlantWorkSpeed>
-        <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+        <PlantWorkSpeed>-0.2</PlantWorkSpeed>
     </statOffsets>
   </PreceptDef>
 

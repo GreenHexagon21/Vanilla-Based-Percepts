@@ -4,7 +4,7 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Maker_Culture_Complex</defName>
+    <defName>Maker_Culture</defName>
     <label>Maker Culture - Complex</label>
     <iconPath>UI/Maker_Culture</iconPath>
   </IssueDef>
@@ -12,8 +12,8 @@
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Maker_Culture_Complex_Central</defName>
-    <issue>Maker_Culture_Complex</issue>
+    <defName>Maker_Culture_Central</defName>
+    <issue>Maker_Culture</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
     <impact>High</impact>
@@ -21,16 +21,14 @@
     </statFactors>
     <statOffsets>
         <BeautyOutdoors>-1</BeautyOutdoors>
-        <ConstructionSpeedFactor>0.2</ConstructionSpeedFactor>
-        <ConstructSuccessChance>0.1</ConstructSuccessChance>
+        <ConstructionSpeedFactor>0.35</ConstructionSpeedFactor>
+        <ConstructSuccessChance>0.5</ConstructSuccessChance>
         <PlantWorkSpeed>-0.15</PlantWorkSpeed>
         <DrugHarvestYield>-0.25</DrugHarvestYield>
-        <AssemblySpeedFactor>0.1</AssemblySpeedFactor>
-        <WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
-        <CaravanRidingSpeedFactor>-0.2</CaravanRidingSpeedFactor>
-        <ShootingAccuracyTurret>0.2</ShootingAccuracyTurret>
-        <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
-        <FixBrokenDownBuildingSuccessChance>0.15</FixBrokenDownBuildingSuccessChance>
+        <AssemblySpeedFactor>0.35</AssemblySpeedFactor>
+        <WorkTableWorkSpeedFactor>0.25</WorkTableWorkSpeedFactor>
+        <CaravanRidingSpeedFactor>-0.25</CaravanRidingSpeedFactor>
+        <FixBrokenDownBuildingSuccessChance>0.25</FixBrokenDownBuildingSuccessChance>
     </statOffsets>
   </PreceptDef>
 

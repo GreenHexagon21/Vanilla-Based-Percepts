@@ -4,45 +4,33 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Militant_Complex</defName>
-    <label>Militant - complex</label>
+    <defName>Militant</defName>
+    <label>Militant</label>
     <iconPath>UI/Militant</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Militant_Complex_Central</defName>
-    <issue>Militant_Complex</issue>
+    <defName>Militant_Central</defName>
+    <issue>Militant</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
-    <impact>High</impact>
+    <impact>Medium</impact>
     <statFactors>
     </statFactors>
     <statOffsets>
-      <AssemblySpeedFactor>0.15</AssemblySpeedFactor>
-      <AimingDelayFactor>-0.2</AimingDelayFactor>
+      <AimingDelayFactor>-0.25</AimingDelayFactor>
       <InjuryHealingFactor>0.2</InjuryHealingFactor>
-      <BedHungerRateFactor>0.1</BedHungerRateFactor>
-      <MortarMissRadiusFactor>-0.3</MortarMissRadiusFactor>
-      <CaravanRidingSpeedFactor>0.2</CaravanRidingSpeedFactor>
-      <EatingSpeed>0.2</EatingSpeed>
-      <MedicalTendSpeed>0.2</MedicalTendSpeed>
-      <MedicalTendQuality>-0.1</MedicalTendQuality>
+      <BedHungerRateFactor>0.2</BedHungerRateFactor>
+      <MortarMissRadiusFactor>-0.5</MortarMissRadiusFactor>
+      <EatingSpeed>0.5</EatingSpeed>
+      <MedicalTendSpeed>0.3</MedicalTendSpeed>
       <MaxHitPoints>12</MaxHitPoints>
-      <RestRateMultiplier>0.2</RestRateMultiplier>
-      <FilthMultiplier>0.2</FilthMultiplier>
-      <ShootingAccuracyOutdoorsLitOffset>0.2</ShootingAccuracyOutdoorsLitOffset>
-      <ShootingAccuracyOutdoorsDarkOffset>0.2</ShootingAccuracyOutdoorsDarkOffset>
-      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-      <EquipDelay>-0.4</EquipDelay>
-      <PainShockThreshold>0.25</PainShockThreshold>
-      <MiningSpeed>-0.15</MiningSpeed>
-      <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+      <FilthMultiplier>0.25</FilthMultiplier>
       <ArrestSuccessChance>0.4</ArrestSuccessChance>
-      <TradePriceImprovement>-0.2</TradePriceImprovement>
-      <DrugSellPriceImprovement>-0.3</DrugSellPriceImprovement>
+      <PainShockThreshold>0.4</PainShockThreshold>
+      <DrugSellPriceImprovement>-0.35</DrugSellPriceImprovement>
     </statOffsets>
   </PreceptDef>
 

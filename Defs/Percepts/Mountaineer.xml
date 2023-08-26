@@ -4,15 +4,15 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Mountaineer_Complex</defName>
-    <label>Mountaineer - Complex</label>
+    <defName>Mountaineer</defName>
+    <label>Mountaineer</label>
     <iconPath>UI/Mountaineer</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Mountaineer_Central_Complex</defName>
+    <defName>Mountaineer_Central</defName>
     <issue>Mountaineer</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
@@ -20,19 +20,11 @@
     <statFactors>
     </statFactors>
     <statOffsets>
-        <MentalBreakThreshold>-0.1</MentalBreakThreshold>
-        <Insulation_Cold>5</Insulation_Cold>
-        <ForagedNutritionPerDay>0.1</ForagedNutritionPerDay>
-        <BeautyOutdoors>1</BeautyOutdoors>
-        <ComfyTemperatureMin>-8</ComfyTemperatureMin>
-        <ComfyTemperatureMax>-8</ComfyTemperatureMax>
-        <CarryingCapacity>10</CarryingCapacity>
-        <ToxicEnvironmentResistance>-0.15</ToxicEnvironmentResistance>
-        <SmoothingSpeed>0.2</SmoothingSpeed>
-        <TradePriceImprovement>-0.15</TradePriceImprovement>
-        <Fertility>0.2</Fertility>
-        <FilthMultiplier>0.1</FilthMultiplier>
-        <PlantWorkSpeed>-0.1</PlantWorkSpeed>
+        <ForagedNutritionPerDay>0.25</ForagedNutritionPerDay>
+        <ToxicEnvironmentResistance>-0.25</ToxicEnvironmentResistance>
+        <SmoothingSpeed>0.5</SmoothingSpeed>
+        <MiningSpeed>0.5</MiningSpeed>
+        <PsychicSensitivity>-0.25</PsychicSensitivity>
     </statOffsets>
   </PreceptDef>
 
