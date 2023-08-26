@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Physical_Worker</defName>
+    <label>Physical Worker</label>
+    <iconPath>UI/Physical_Worker</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Physical_Worker_Central</defName>
+    <issue>Physical_Worker</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <ConstructionSpeedFactor>0.3</ConstructionSpeedFactor>
+        <GeneralLaborSpeed>0.3</GeneralLaborSpeed>
+        <CleaningTimeFactor>0.3</CleaningTimeFactor>
+        <PlantWorkSpeed>0.2</PlantWorkSpeed>
+        <SmoothingSpeed>0.3</SmoothingSpeed>
+        <ResearchSpeedFactor>-0.5</ResearchSpeedFactor>
+        <GlobalLearningFactor>-0.25</GlobalLearningFactor>
+        <MoveSpeed>0.5</MoveSpeed>
+        <CarryingCapacity>5</CarryingCapacity>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

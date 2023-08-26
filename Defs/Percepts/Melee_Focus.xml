@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Melee_Focus</defName>
+    <label>Melee Focus</label>
+    <iconPath>UI/Melee_Focus</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Melee_Focus_Central</defName>
+    <issue>Melee_Focus</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <MeleeHitChance>0.3</MeleeHitChance>
+        <MeleeDodgeChance>0.3</MeleeDodgeChance>
+        <BluntDamageMultiplier>0.15</BluntDamageMultiplier>
+        <MeleeWeapon_DamageMultiplier>0.15</MeleeWeapon_DamageMultiplier>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Ranger</defName>
+    <label>Ranger</label>
+    <iconPath>UI/Ranger</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Ranger_Central</defName>
+    <issue>Ranger</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
+        <MortarMissRadiusFactor>-1</MortarMissRadiusFactor>
+        <MeleeHitChance>-0.15</MeleeHitChance>
+        <MeleeDodgeChance>-0.15</MeleeDodgeChance>
+        <RangedWeapon_Cooldown>-0.25</RangedWeapon_Cooldown>
+        <RangedWeapon_DamageMultiplier>0.4</RangedWeapon_DamageMultiplier>
+        <AimingDelayFactor>0.5</AimingDelayFactor>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>
