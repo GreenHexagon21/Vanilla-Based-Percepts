@@ -4,19 +4,19 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Plant_Focus</defName>
-    <label>Plant Focus</label>
+    <defName>Plant_Focus_Complex</defName>
+    <label>Plant Focus - Complex</label>
     <iconPath>UI/Plant_Focus</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Plant_Focus_Central</defName>
-    <issue>Plant_Focus</issue>
+    <defName>Plant_Focus_Complex_Central</defName>
+    <issue>Plant_Focus_Complex</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
-    <impact>Medium</impact>
+    <impact>High</impact>
     <statFactors>
     </statFactors>
     <statOffsets>

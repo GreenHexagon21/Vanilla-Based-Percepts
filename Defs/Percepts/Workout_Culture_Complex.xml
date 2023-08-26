@@ -4,16 +4,16 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Workout_Culture</defName>
-    <label>Workout Culture</label>
+    <defName>Workout_Culture_Complex</defName>
+    <label>Workout Culture - complex</label>
     <iconPath>UI/Workout_Culture</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Workout_Culture_Central</defName>
-    <issue>Workout_Culture</issue>
+    <defName>Workout_Culture_Complex_Central</defName>
+    <issue>Workout_Culture_Complex</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
     <impact>Medium</impact>

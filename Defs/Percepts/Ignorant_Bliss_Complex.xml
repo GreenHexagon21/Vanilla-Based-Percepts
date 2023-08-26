@@ -4,7 +4,7 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Ignorant_Bliss</defName>
+    <defName>Ignorant_Bliss_Complex</defName>
     <label>Ignorant Bliss</label>
     <iconPath>UI/Ignorant_Bliss</iconPath>
   </IssueDef>
@@ -12,11 +12,11 @@
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Ignorant_Bliss_Central</defName>
-    <issue>Ignorant_Bliss</issue>
+    <defName>Ignorant_Bliss_Complex_Central</defName>
+    <issue>Ignorant_Bliss_Complex</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
-    <impact>Medium</impact>
+    <impact>High</impact>
     <statFactors>
     </statFactors>
     <statOffsets>

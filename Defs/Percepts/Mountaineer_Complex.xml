@@ -4,15 +4,15 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Mountaineer</defName>
-    <label>mountaineering</label>
+    <defName>Mountaineer_Complex</defName>
+    <label>Mountaineer - Complex</label>
     <iconPath>UI/Mountaineer</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Mountaineer_Central</defName>
+    <defName>Mountaineer_Central_Complex</defName>
     <issue>Mountaineer</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>

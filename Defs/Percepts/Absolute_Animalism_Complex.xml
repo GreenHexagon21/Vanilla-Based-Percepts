@@ -4,19 +4,19 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Absolute_Animalism</defName>
-    <label>Absolute Animalism</label>
+    <defName>Absolute_Animalism_Complex</defName>
+    <label>Absolute Animalism - Complex</label>
     <iconPath>UI/Absolute_Animalism</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Absolute_Animalism_Central</defName>
-    <issue>Absolute_Animalism</issue>
+    <defName>Absolute_Animalism_Complex_Central</defName>
+    <issue>Absolute_Animalism_Complex</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
-    <impact>Medium</impact>
+    <impact>High</impact>
     <statFactors>
     </statFactors>
     <statOffsets>

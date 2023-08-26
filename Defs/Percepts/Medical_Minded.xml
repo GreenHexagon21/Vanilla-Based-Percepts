@@ -20,9 +20,9 @@
     <statFactors>
     </statFactors>
     <statOffsets>
-        <MedicalTendSpeed>0.3</MedicalTendSpeed>
-        <MedicalTendQuality>0.3</MedicalTendQuality>
-        <CleaningTimeFactor>-0.3</CleaningTimeFactor>
+        <MedicalTendSpeed>0.5</MedicalTendSpeed>
+        <MedicalTendQuality>0.25</MedicalTendQuality>
+        <CleaningTimeFactor>-0.25</CleaningTimeFactor>
         <ImmunityGainSpeedFactor>-0.2</ImmunityGainSpeedFactor>
         <PainShockThreshold>-0.2</PainShockThreshold>
     </statOffsets>

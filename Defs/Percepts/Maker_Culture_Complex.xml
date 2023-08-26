@@ -4,19 +4,19 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Maker_Culture</defName>
-    <label>Maker Culture</label>
+    <defName>Maker_Culture_Complex</defName>
+    <label>Maker Culture - Complex</label>
     <iconPath>UI/Maker_Culture</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Maker_Culture_Central</defName>
-    <issue>Maker_Culture</issue>
+    <defName>Maker_Culture_Complex_Central</defName>
+    <issue>Maker_Culture_Complex</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
-    <impact>Medium</impact>
+    <impact>High</impact>
     <statFactors>
     </statFactors>
     <statOffsets>

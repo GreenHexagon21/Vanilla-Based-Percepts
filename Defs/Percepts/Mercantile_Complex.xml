@@ -4,16 +4,16 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Mercantile</defName>
-    <label>Mercantile</label>
+    <defName>Mercantile_Complex</defName>
+    <label>Mercantile - Complex</label>
     <iconPath>UI/Mercantile</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Mercantile_Central</defName>
-    <issue>Mercantile</issue>
+    <defName>Mercantile_Complex_Central</defName>
+    <issue>Mercantile_Complex</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
     <impact>Medium</impact>

@@ -4,19 +4,19 @@
   <!-- Issue -->
 
   <IssueDef>
-    <defName>Militant</defName>
-    <label>militant</label>
+    <defName>Militant_Complex</defName>
+    <label>Militant - complex</label>
     <iconPath>UI/Militant</iconPath>
   </IssueDef>
 
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Militant_Central</defName>
-    <issue>Militant</issue>
+    <defName>Militant_Complex_Central</defName>
+    <issue>Militant_Complex</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
-    <impact>Medium</impact>
+    <impact>High</impact>
     <statFactors>
     </statFactors>
     <statOffsets>
