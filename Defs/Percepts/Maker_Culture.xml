@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Maker_Culture_Complex</defName>
+    <label>Maker Culture - Complex</label>
+    <iconPath>UI/Maker_Culture</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Maker_Culture_Complex_Central</defName>
+    <issue>Maker_Culture_Complex</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>High</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <BeautyOutdoors>-1</BeautyOutdoors>
+        <ConstructionSpeedFactor>0.2</ConstructionSpeedFactor>
+        <ConstructSuccessChance>0.1</ConstructSuccessChance>
+        <PlantWorkSpeed>-0.15</PlantWorkSpeed>
+        <DrugHarvestYield>-0.25</DrugHarvestYield>
+        <AssemblySpeedFactor>0.1</AssemblySpeedFactor>
+        <WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
+        <CaravanRidingSpeedFactor>-0.2</CaravanRidingSpeedFactor>
+        <ShootingAccuracyTurret>0.2</ShootingAccuracyTurret>
+        <ShootingAccuracyPawn>-0.2</ShootingAccuracyPawn>
+        <FixBrokenDownBuildingSuccessChance>0.15</FixBrokenDownBuildingSuccessChance>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

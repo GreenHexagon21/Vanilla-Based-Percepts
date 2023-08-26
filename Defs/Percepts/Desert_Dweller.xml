@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Desert_Dweller_Complex</defName>
+    <label>Desert Dweller - Complex</label>
+    <iconPath>UI/Desert_Dweller</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Desert_Dweller_Complex_Central</defName>
+    <issue>Desert_Dweller_Complex</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <SmoothingSpeed>0.3</SmoothingSpeed>
+        <ComfyTemperatureMin>10</ComfyTemperatureMin>
+        <ComfyTemperatureMax>10</ComfyTemperatureMax>
+        <Insulation_Heat>5</Insulation_Heat>
+        <Insulation_Cold>-5</Insulation_Cold>
+        <CaravanRidingSpeedFactor>-0.1</CaravanRidingSpeedFactor>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

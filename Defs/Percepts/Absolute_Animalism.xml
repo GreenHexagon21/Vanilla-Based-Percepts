@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Absolute_Animalism_Complex</defName>
+    <label>Absolute Animalism - Complex</label>
+    <iconPath>UI/Absolute_Animalism</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Absolute_Animalism_Complex_Central</defName>
+    <issue>Absolute_Animalism_Complex</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>High</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <CleaningTimeFactor>0.2</CleaningTimeFactor>
+        <CaravanRidingSpeedFactor>0.25</CaravanRidingSpeedFactor>
+        <MortarMissRadiusFactor>0.25</MortarMissRadiusFactor>
+        <AnimalProductsSellImprovement>0.25</AnimalProductsSellImprovement>
+        <BeautyOutdoors>1</BeautyOutdoors>
+        <AnimalsLearningFactor>0.2</AnimalsLearningFactor>
+        <BondAnimalChanceFactor>0.2</BondAnimalChanceFactor>
+        <TrainAnimalChance>0.4</TrainAnimalChance>
+        <TameAnimalChance>0.2</TameAnimalChance>
+        <PlantWorkSpeed>0.2</PlantWorkSpeed>
+        <GeneralLaborSpeed>-0.2</GeneralLaborSpeed>
+        <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+        <MiningSpeed>-0.2</MiningSpeed>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

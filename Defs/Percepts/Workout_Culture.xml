@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Workout_Culture_Complex</defName>
+    <label>Workout Culture - complex</label>
+    <iconPath>UI/Workout_Culture</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Workout_Culture_Complex_Central</defName>
+    <issue>Workout_Culture_Complex</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <MoveSpeed>0.15</MoveSpeed>
+        <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+        <CancerRate>-0.3</CancerRate>
+        <MeleeDamageFactor>0.3</MeleeDamageFactor>
+        <MeleeHitChance>0.15</MeleeHitChance>
+        <MeleeDodgeChance>0.1</MeleeDodgeChance>
+        <AimingDelayFactor>0.15</AimingDelayFactor>
+        <ImmunityGainSpeedFactor>0.1</ImmunityGainSpeedFactor>
+        <EquipDelay>1</EquipDelay>
+        <ShootingAccuracyFactor_Short>-0.1</ShootingAccuracyFactor_Short>
+        <ShootingAccuracyFactor_Medium>-0.15</ShootingAccuracyFactor_Medium>
+        <ShootingAccuracyFactor_Long>-0.18</ShootingAccuracyFactor_Long>
+        <EatingSpeed>0.2</EatingSpeed>
+        <CarryingCapacity>20</CarryingCapacity>
+        <FilthMultiplier>0.25</FilthMultiplier>
+        <JoyGainFactor>-0.05</JoyGainFactor>
+        <ResearchSpeed>-0.2</ResearchSpeed>
+        <SocialImpact>0.2</SocialImpact>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

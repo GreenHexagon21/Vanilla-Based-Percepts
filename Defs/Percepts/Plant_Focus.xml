@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Plant_Focus_Complex</defName>
+    <label>Plant Focus - Complex</label>
+    <iconPath>UI/Plant_Focus</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Plant_Focus_Complex_Central</defName>
+    <issue>Plant_Focus_Complex</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>High</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <PlantWorkSpeed>0.35</PlantWorkSpeed>
+        <PlantHarvestYield>0.20</PlantHarvestYield>
+        <TameAnimalChance>-0.25</TameAnimalChance>
+        <AnimalGatherSpeed>-0.25</AnimalGatherSpeed>
+        <AnimalGatherYield>-0.25</AnimalGatherYield>
+        <AnimalProductsSellImprovement>-0.3</AnimalProductsSellImprovement>
+        <BeautyOutdoors>1</BeautyOutdoors>
+        <PruningSpeed>0.4</PruningSpeed>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

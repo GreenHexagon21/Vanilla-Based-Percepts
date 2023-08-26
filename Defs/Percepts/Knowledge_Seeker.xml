@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Knowledge_Seeker_Complex</defName>
+    <label>Knowledge Seeker - Complex</label>
+    <iconPath>UI/Knowledge_Seeker</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Knowledge_Seeker_Complex_Central</defName>
+    <issue>Knowledge_Seeker_Complex</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>High</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <JoyGainFactor>-0.15</JoyGainFactor>
+        <BeautyOutdoors>-1</BeautyOutdoors>
+        <MedicalTendSpeed>0.2</MedicalTendSpeed>
+        <MedicalTendQuality>0.15</MedicalTendQuality>
+        <GlobalLearningFactor>0.25</GlobalLearningFactor>
+        <ResearchSpeed>0.2</ResearchSpeed>
+        <GeneralLaborSpeed>-0.2</GeneralLaborSpeed>
+        <Cleanliness>5</Cleanliness>
+        <TradePriceImprovement>-0.1</TradePriceImprovement>
+        <FilthMultiplier>-0.2</FilthMultiplier>
+        <SocialImpact>-0.25</SocialImpact>
+        <EatingSpeed>0.2</EatingSpeed>
+        <BedRestEffectiveness>-0.1</BedRestEffectiveness>
+        <MentalBreakThreshold>0.15</MentalBreakThreshold>
+        <PainShockThreshold>-0.15</PainShockThreshold>
+        <ShootingAccuracyTurret>0.1</ShootingAccuracyTurret>
+        <HackingSpeed>+0.2</HackingSpeed>
+        <ControlTakingTime>-4</ControlTakingTime>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>

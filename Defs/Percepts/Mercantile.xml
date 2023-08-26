@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Issue -->
+
+  <IssueDef>
+    <defName>Mercantile_Complex</defName>
+    <label>Mercantile - Complex</label>
+    <iconPath>UI/Mercantile</iconPath>
+  </IssueDef>
+
+  <!-- Precepts -->
+
+  <PreceptDef>
+    <defName>Mercantile_Complex_Central</defName>
+    <issue>Mercantile_Complex</issue>
+    <label>central</label>
+    <description>We have a strong connection to our animal friends.</description>
+    <impact>Medium</impact>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+        <SellPriceFactor>0.25</SellPriceFactor>
+        <NegotiationAbility>0.15</NegotiationAbility>
+        <ConstructionSpeedFactor>-0.15</ConstructionSpeedFactor>
+        <TameAnimalChance>-0.1</TameAnimalChance>
+        <CarryingCapacity>10</CarryingCapacity>
+        <CaravanRidingSpeedFactor>0.3</CaravanRidingSpeedFactor>
+        <DoorOpenSpeed>0.4</DoorOpenSpeed>
+    </statOffsets>
+  </PreceptDef>
+
+</Defs>
