@@ -12,7 +12,7 @@
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Charisma_Is_King_Complex_Central</defName>
+    <defName>Charisma_Is_King_Central_Complex</defName>
     <issue>Charisma_Is_King_Complex</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>

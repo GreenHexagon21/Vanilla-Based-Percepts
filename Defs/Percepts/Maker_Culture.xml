@@ -5,7 +5,7 @@
 
   <IssueDef>
     <defName>Maker_Culture</defName>
-    <label>Maker Culture - Complex</label>
+    <label>Maker Culture</label>
     <iconPath>UI/Maker_Culture</iconPath>
   </IssueDef>
 
@@ -16,7 +16,7 @@
     <issue>Maker_Culture</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
-    <impact>High</impact>
+    <impact>Medium</impact>
     <statFactors>
     </statFactors>
     <statOffsets>

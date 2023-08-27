@@ -12,7 +12,7 @@
   <!-- Precepts -->
 
   <PreceptDef>
-    <defName>Maker_Culture_Complex_Central</defName>
+    <defName>Maker_Culture_Central_Complex</defName>
     <issue>Maker_Culture_Complex</issue>
     <label>central</label>
     <description>We have a strong connection to our animal friends.</description>
