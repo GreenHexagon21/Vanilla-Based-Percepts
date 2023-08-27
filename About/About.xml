@@ -11,7 +11,7 @@
         <li>ludeon.rimworld.biotech</li>
     </loadAfter>
     <description>
-        Adds new percepts, just more things to have fun with. I tried to keep them atleast somewhat balanced.
+        Adds new percepts usingly only excisting XML modifiers. It's just more things to have fun with. Each percept has two variations, one more complex and balanced, and one simplified. 
     </description>
 
 </ModMetaData>
